@@ -1,14 +1,17 @@
 package com.bitstamp.service;
 
+import com.bitstamp.service.feign.BitstampClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.core.env.Environment;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 @SpringBootApplication
+@EnableFeignClients(clients = {BitstampClient.class})
 @Slf4j
 public class BitstampServiceApp {
 

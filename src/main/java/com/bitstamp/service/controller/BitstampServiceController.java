@@ -2,6 +2,7 @@ package com.bitstamp.service.controller;
 
 import com.bitstamp.service.model.api.CryptoTransactionResponse;
 import com.bitstamp.service.model.api.UserTransactionResponse;
+import com.bitstamp.service.model.api.WithdrawalResponse;
 import com.bitstamp.service.service.BitstampClientService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -33,6 +34,11 @@ public class BitstampServiceController {
     @RequestMapping(method = RequestMethod.GET, value = "/crypto-transactions")
     public ResponseEntity<CryptoTransactionResponse> getCryptoTransactions() {
         return ResponseEntity.ok(bitstampClientService.fetchCryptoTransactions());
+    }
+
+    @RequestMapping(method = RequestMethod.POST, value = "/execute-withdrawal")
+    public ResponseEntity<WithdrawalResponse> executeWithdrawal() {
+        return ResponseEntity.ok(bitstampClientService.executeWithdrawal());
     }
 
 }

@@ -4,9 +4,19 @@ spring:
   main:
     allow-bean-definition-overriding: true
 server:
-  port: 8080
+  port: 8082
 
 bitstamp:
-  baseUrl: https://www.bitstamp.net
+  baseUrl: https://bitstamp.net
   apiKey: YOUR_KEY
   apiSecret: YOUR_SECRET
+
+# Set these properties if you need to go through a proxy.
+# It's going to be automatically configured through a conditional bean
+#proxy:
+#  host:
+#  port:
+
+logging:
+  level:
+    com.bitstamp.service.feign: DEBUG

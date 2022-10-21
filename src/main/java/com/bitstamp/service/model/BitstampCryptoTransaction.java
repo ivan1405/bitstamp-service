@@ -5,8 +5,8 @@ import lombok.Data;
 @Data
 public class BitstampCryptoTransaction {
 
-    private String txid;
-    private String destinationAddress;
+    private WithdrawalType txid;
+    private WithdrawalType destinationAddress;
     private Float amount;
-    private String currency;
+    private WithdrawalType currency;
 }
