@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: bitstamp-service
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 8080
+
+bitstamp:
+  baseUrl: https://www.bitstamp.net
+  apiKey: K5iNatjvKNf2zLhkKwMO9T4EwdAPnovB
+  apiSecret: qI5f6T7kdnEp6Kp8lAY0Ac3nIwe3EERd

@@ -1,0 +1,14 @@
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/feign/BitstampClient.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/config/BitstampConfig.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/service/BitstampClientServiceImpl.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/BitstampServiceApp.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/api/TransactionType.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/api/CryptoTransactionResponse.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/controller/BitstampServiceController.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/service/BitstampClientService.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/mapper/BitstampServiceMapper.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/BitstampCryptoTransaction.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/api/UserTransactionResponse.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/BitstampCryptoTransactions.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/api/CryptoTransaction.java
+/Users/ivan_perez/Documents/workspaces/bitstamp-service/src/main/java/com/bitstamp/service/model/BitstampUserTransaction.java
